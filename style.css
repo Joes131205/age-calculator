@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 148, 0);
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#output {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#time-1, #time-2, #time-3 {
+    margin: auto 40px;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+p {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bolder;
+}
+
+input:focus {
+    outline: none;
+}
+
+#in {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+button {
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: 'League Spartan', sans-serif;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid white;
+}
+
+button:active {
+    outline: none;
+}
+
+@media (max-width: 500px) {
+    #output {
+        display: block;
+    }
+}
